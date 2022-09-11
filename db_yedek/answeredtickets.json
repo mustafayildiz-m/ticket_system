@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "631e4d15165f7756c9a9365c"
+  },
+  "content": "asdasdasd",
+  "ticket_id": "631e32f92561bf50ad150072",
+  "date": {
+    "$date": {
+      "$numberLong": "1662930197576"
+    }
+  },
+  "img": "/img/posted_images/manzara-fotografi-cekmek-724x394.webp",
+  "__v": 0
+}]
