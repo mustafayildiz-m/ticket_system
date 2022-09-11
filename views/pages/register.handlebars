@@ -1,0 +1,72 @@
+<body class="hold-transition register-page">
+<div class="register-box">
+    <div class="card">
+        <div class="card-body register-card-body">
+            <div class="login-logo">
+                <b>Ticket System</b>
+            </div>
+            <form action="/users/register" method="post">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" name="user_name" placeholder="isim">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" name="user_email" placeholder="Email">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" name="password_one" placeholder="Şifre">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" name="password_two" placeholder="Şifre Tekrar">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                </div>
+                {{#if err}}
+
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>{{err}}</strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                {{/if}}
+                <div class="row">
+
+                    <div class="col-4">
+                        <a href="/users/login" type="submit" class="btn btn-primary btn-block">Üyeyim</a>
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-success btn-block">Onayla</button>
+                    </div>
+                    <!-- /.col -->
+
+                </div>
+            </form>
+
+        </div>
+        <!-- /.form-box -->
+    </div><!-- /.card -->
+</div>
+<!-- /.register-box -->
