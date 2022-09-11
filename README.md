@@ -6,9 +6,8 @@
 
 
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-GitHub clone -> [GitHub](https://github.com/mustafayildiz-m/ticket_system.git).
+GitHub clone :+1:  -> [GitHub](https://github.com/mustafayildiz-m/ticket_system.git).
 
 
 ```
