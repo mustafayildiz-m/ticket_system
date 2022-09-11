@@ -4,11 +4,7 @@
 - admin -> mail = admin@admin.com  pass = admin
 - user ->  mail = user@user.com     pass =user
 
-
-
-
-GitHub clone :+1:  -> [GitHub](https://github.com/mustafayildiz-m/ticket_system.git).
-
+GitHub clone  -> [GitHub](https://github.com/mustafayildiz-m/ticket_system.git).
 
 ```
 npm install
@@ -17,3 +13,4 @@ npm install
 ```
 npm run server
 ```
+:+1: 
